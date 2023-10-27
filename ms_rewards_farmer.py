@@ -816,5 +816,5 @@ for account in ACCOUNTS:
         prGreen('[BING] Finished Mobile Bing searches !')
         browser.quit()
 
-    prGreen('[POINTS] You have earned ' + str(POINTS_COUNTER - startingPoints) + ' points today !')
+    prGreen('[POINTS] You have earned ' + str(POINTS_COUNTER - startingPoints) + ' points for ' + str(date.today()) +'!')
     prGreen('[POINTS] You are now at ' + str(POINTS_COUNTER) + ' points !\n')
